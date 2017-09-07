@@ -1,0 +1,182 @@
+/*
+wood brown: A89F68;
+army green: 41521F;
+*/
+body { 
+  /* Establece la fuente de Google aquí */
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  font-family: Roboto;
+} 
+.link{ 
+	font-weight: 700;
+	padding: 21px;
+	display: inline-block;
+	align-items: right;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/* Seccion bienvenida */
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: white;
+}
+.navbar-default { 
+	background-color: transparent;
+	border-color: transparent;
+	color: white;
+}
+.navbar-default .navbar-brand{
+	color: white;
+}
+.navbar-brand{
+	font-size: 20px;
+}
+.navbar-default .navbar-nav>li>a {
+	color: white;
+}
+#koala{
+	position: absolute;
+	top: 400px;
+	left: 80px;
+}
+.bienvenida{
+	background-image: url("../img/portada.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: -1;
+	width: 100%;
+	height: 780px;
+	display: block;
+	color: white;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+
+/* Seccion 2 informacion */
+
+.imagesTres img{
+	width: 600px;
+	height: 740px;
+	margin-top: 80px;
+}
+.parrafo1{
+	margin-top: 260px;
+}
+.parrafo1 h5{
+	color: #9e9e9e;
+	font-family: Roboto;
+}
+
+.parrafo1 h1{
+	color: #9e9d24;
+	font-family: Roboto;
+}
+.row h4{
+	color: #9e9d24;
+	font-family: Roboto;
+}
+.parrafos{
+	color: #9e9e9e;
+	font-family: Roboto;
+}
+
+/* seccion 3 */
+
+.section3{
+	background-color: #A89F68;
+	height: 700px;
+}
+.texto{
+	color: white;
+	margin-top: 100px;
+}
+.texto h3{
+	color: #41521F;
+}
+.imgCosita img{
+	margin-top: 100px;
+	width: 600px;
+	height: 300px;
+	border: 10px solid white;
+}
+.btn{
+	background-color: #41521F;
+	color: white;
+}
+
+/* Seccion 4 */
+.icons{
+	height: 700px;
+}
+.textoH1{
+	margin-top: 100px;
+	margin-bottom: 90px;
+	color: #41521F;
+	text-align: center;
+}
+.fa{
+   color: #41521F;
+}
+#letra{
+	color: #9e9e9e;
+}
+.iconos{
+	text-align: center;
+}
+i{
+	margin-bottom: 60px;
+}
+
+/* seccion 6 */
+.donations{
+   background-color: #A89F68;
+   margin-top: 100px;
+   text-align: center;
+   color: black;
+   height: 750px;
+}
+.donations h1{
+   color: #33691e;
+}
+.donations h4{
+	font-family: Roboto;
+	color: black;
+}
+.donations i{
+	color: white;
+}
+.numero{
+	font-size: 6em;
+}
+.numero , .valor{
+	display: inline-block;
+}
+.titulo{
+   margin-top: 60px;
+   margin-bottom: 50px;
+}
+#demo{
+	margin-top: 20px;
+	background-color: #33691e;
+	width: 400px;
+	height: 40px;
+	text-align: center;
+	border-radius: 10px;
+}
+footer{
+	background-color: #41521F;
+}
+#textito{
+	color: white;
+}
+.footers{
+	margin-top: 80px;
+}
+.footers p{
+	color: #9e9d24;
+}
